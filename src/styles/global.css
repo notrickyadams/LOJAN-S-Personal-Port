@@ -318,6 +318,25 @@ nav.scrolled{
   .hero-actions{gap:12px;}
 }
 
+@media(max-width:900px){
+  .hero-name{
+    font-size:clamp(48px,14vw,80px);
+  }
+}
+
+@media(max-width:480px){
+  .hero-name{
+    font-size:clamp(36px,12vw,60px);
+  }
+} 
+
+@media(max-width:900px){
+  .hero{padding:0 24px;}
+  .hero-inner{padding-top:100px;}
+  .hero-ticker{display:none;}
+  .hero-meta{gap:28px;}
+  .hero-actions{gap:12px;}
+}
 /* ============================================================
    SECTION SHARED
 ============================================================ */
